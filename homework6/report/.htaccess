@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /home/hxho/.htpasswd
+Require valid-user

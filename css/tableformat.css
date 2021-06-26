@@ -1,0 +1,18 @@
+.table1 table {
+      font-family: arial, sans-serif;
+      color: black;
+      border-collapse: collapse;
+      width: 100%;
+}
+.table1 td, .table1 th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+}
+.table1 th {
+      background-color: #0143ad;
+      color: white;
+}
+.table1 tr:nth-child(even) {
+      background-color: #c3d7f7;
+}

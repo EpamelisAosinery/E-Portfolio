@@ -1,0 +1,9 @@
+ErrorDocument 404 /~hxho/cis122/eportfolio/404.php 
+
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)\.php$ https://cislinux.hfcc.edu/~hxho/cis122/eportfolio/404.php [L]
